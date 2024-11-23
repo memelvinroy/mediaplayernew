@@ -9,7 +9,7 @@ import './bootstrap.min.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter>  //for routing we wrap app inside the browseroutrer
     <App />
     </BrowserRouter>
   </React.StrictMode>
